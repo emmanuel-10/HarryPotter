@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity"
+    android:background="@drawable/fondo5"
+    android:orientation="vertical"
+    android:padding="20dp"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/harry"
+            android:layout_marginRight="5dp"
+            />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emmanuel Escalona"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_toRightOf="@id/image"
+
+            />
+
+        <TextView
+            android:id="@+id/carrera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Analista Programador"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#C6C4C4"
+            android:layout_below="@id/name"
+            android:layout_toRightOf="@id/image"
+            />
+        <TextView
+            android:id="@+id/detalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capacitado para el desarrollo de paginas web,diseño de paginas web y el desarrollo de aplicaciones."
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_below="@id/carrera"
+            android:layout_toRightOf="@id/image"
+            />
+
+    </RelativeLayout>
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imagess"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/harry"
+            android:layout_marginRight="5dp"
+            />
+
+        <TextView
+            android:id="@+id/namess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emmanuel Escalona"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_toRightOf="@id/imagess"
+
+            />
+
+        <TextView
+            android:id="@+id/carrerass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Analista Programador"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#C6C4C4"
+            android:layout_below="@id/namess"
+            android:layout_toRightOf="@id/imagess"
+            />
+        <TextView
+            android:id="@+id/detalless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capacitado para el desarrollo de paginas web,diseño de paginas web y el desarrollo de aplicaciones."
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_below="@id/carrerass"
+            android:layout_toRightOf="@id/imagess"
+            />
+
+    </RelativeLayout>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/images"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/emmanuel"
+        android:layout_marginRight="5dp"
+        />
+
+    <TextView
+        android:id="@+id/names"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emmanuel Escalona"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_toRightOf="@id/images"
+
+        />
+
+    <TextView
+        android:id="@+id/carreras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Analista Programador"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#C6C4C4"
+        android:layout_below="@id/names"
+        android:layout_toRightOf="@id/images"
+        />
+    <TextView
+        android:id="@+id/detalles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capacitado para el desarrollo de paginas web,diseño de paginas web y el desarrollo de aplicaciones."
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_below="@id/carreras"
+        android:layout_toRightOf="@id/images"
+        />
+
+
+
+
+
+
+
+</RelativeLayout>
